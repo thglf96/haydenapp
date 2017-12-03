@@ -1,0 +1,6 @@
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('layers_4-11-14-17.xml')
+root = tree.getroot()
+
+print (root)

@@ -12,14 +12,25 @@ if __name__ == '__main__':
 
     tree = ET.parse('layers_4.xml')
     root = tree.getroot()
+    # nameSpace = root.
 
-    fixture = root.findall(".//*[@fixture_id]")
-    locations = root.findall(".//Layers")
-    xyz = root.findall(".//*[@x][@y][@z]")
-    fixtureLoc = root.findall("./Layers/Layer/Fixture/SubFixture/AbsolutePosition/Location")
+    namespaces = {'ns': 'http://schemas.malighting.de/grandma2/xml/MA'}
+    fixture = root.findall(".//ns:Fixture", namespaces)
+    location = root.findall(".//ns:Location", namespaces)
 
-    print('Fixtures: ', len(fixture))
-    print('Locations: ', len(locations))
+    for fix in fixture:
+        print('Fixture Info: ID - ', fix.get('fixture_id'), ' Name - ', fix.get('name'), ' Index - ', fix.get('index'))
+
+    # fixture = root.findall(".//*[@fixture_id]/*/*/*")
+    # for fix in fixture:
+    #    if fix.tag == "{http://schemas.malighting.de/grandma2/xml/MA}Location":
+    #      print (fix.attrib),
+    # locations = root.findall(".//")
+    # xyz = root.findall(".//*[@x][@y][@z]")
+    # fixtureLoc = root.findall("./Layers/Layer/Fixture/SubFixture/AbsolutePosition/Location")
+
+    # print('Fixtures: ', fixture[1].tag)
+    # print('Locations: ', locations)
 
     # for child in fixture:
     # print(child.tag)
