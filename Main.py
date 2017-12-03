@@ -10,9 +10,8 @@ if __name__ == '__main__':
     myParser = KBParser()
     import xml.etree.ElementTree as ET
 
-    tree = ET.parse('layers_4.xml')
+    tree = ET.parse('layer_2_layer.xml')
     root = tree.getroot()
-    # nameSpace = root.
 
     namespaces = {'ns': 'http://schemas.malighting.de/grandma2/xml/MA'}
     fixture = root.findall(".//ns:Fixture", namespaces)
@@ -21,25 +20,39 @@ if __name__ == '__main__':
     for fix in fixture:
         print('Fixture Info: ID - ', fix.get('fixture_id'), ' Name - ', fix.get('name'), ' Index - ', fix.get('index'))
 
-    # fixture = root.findall(".//*[@fixture_id]/*/*/*")
-    # for fix in fixture:
-    #    if fix.tag == "{http://schemas.malighting.de/grandma2/xml/MA}Location":
-    #      print (fix.attrib),
-    # locations = root.findall(".//")
-    # xyz = root.findall(".//*[@x][@y][@z]")
-    # fixtureLoc = root.findall("./Layers/Layer/Fixture/SubFixture/AbsolutePosition/Location")
+    print('---------------------------------------')
 
-    # print('Fixtures: ', fixture[1].tag)
-    # print('Locations: ', locations)
+    for loc in location:
+        print('Location Info: x - ', loc.get('x'), ' y - ', loc.get('y'), ' z - ', loc.get('z'))
 
-    # for child in fixture:
-    # print(child.tag)
+    print('---------------------------------------')
+
+    import csv
+    csvX = []
+    csvY = []
+    csvZ = []
+
+    with open('csvExample-11-17-17.csv', 'r') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            csvX.append(row[1])
+            csvY.append(row[2])
+            csvZ.append(row[3])
+        # your_list = map(tuple, reader)
+
+    # print(csvX)
+
+    for index, loc in enumerate(location):
+        loc.set('x', csvX[index].strip())
+        loc.set('y', csvY[index].strip())
+        loc.set('z', csvZ[index].strip())
+        # print(loc.get('x'))
 
     from datetime import *
     fileStamp = datetime.strftime(datetime.now(), '%Y-%m-%d_%H%M%S')
 
     # Write new XML
-    # tree.write('KB_Parser-{}.xml'.format(fileStamp))
+    tree.write('KB_Parser-{}.xml'.format(fileStamp))
 
 """
  Objective:
@@ -72,7 +85,7 @@ CSV Key (a, b, c, d) a=fixture id b=x c=y d=z.
                                     -Rotation[x= , y= , z= ]
 """
 
-# Documentation: https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
+#Documentation: https://docs.python.org/3/library/xml.etree.elementtree.html#module-xml.etree.ElementTree
 
 """
 EXAMPLES:

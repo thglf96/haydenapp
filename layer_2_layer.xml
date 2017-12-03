@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="styles/fixture+layer+layers@html@default.xsl"?>
+<?xml-stylesheet type="text/xsl" href="styles/fixture+layer+layers@csv.xsl" alternate="yes"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd" major_vers="3" minor_vers="3" stream_vers="4">
+	<Info datetime="2017-12-04T01:37:48" showfile="new show 2017-12-04" />
+	<Layer index="1" name="Layer">
+		<Fixture index="0" name="VL3000Sp 1" fixture_id="1">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>1</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="1" name="VL3000Sp 2" fixture_id="2">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>29</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="2" name="VL3000Sp 3" fixture_id="3">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>57</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="3" name="VL3000Sp 4" fixture_id="4">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>85</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="4" name="VL3000Sp 5" fixture_id="5">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>113</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="5" name="VL3000Sp 6" fixture_id="6">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>141</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="6" name="VL3000Sp 7" fixture_id="7">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>169</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="7" name="VL3000Sp 8" fixture_id="8">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>197</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="8" name="VL3000Sp 9" fixture_id="9">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>225</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+		<Fixture index="9" name="VL3000Sp 10" fixture_id="10">
+			<FixtureType name="3 VL3000 Spot 00">
+				<No>3</No>
+			</FixtureType>
+			<SubFixture index="0" react_to_grandmaster="true" color="ffffff">
+				<Patch>
+					<Address>253</Address>
+				</Patch>
+				<AbsolutePosition>
+					<Location x="0" y="0" z="0" />
+					<Rotation x="0" y="-0" z="0" />
+					<Scaling x="1" y="1" z="1" />
+				</AbsolutePosition>
+				<Channel index="0" />
+				<Channel index="1" />
+				<Channel index="2" />
+				<Channel index="3" />
+				<Channel index="4" />
+				<Channel index="5" />
+				<Channel index="6" />
+				<Channel index="7" />
+				<Channel index="8" />
+				<Channel index="9" />
+				<Channel index="10" />
+				<Channel index="11" />
+				<Channel index="12" />
+				<Channel index="13" />
+				<Channel index="14" />
+				<Channel index="15" />
+				<Channel index="16" />
+				<Channel index="17" />
+				<Channel index="18" />
+				<Channel index="19" />
+				<Channel index="20" />
+				<Channel index="21" />
+				<Channel index="22" />
+			</SubFixture>
+		</Fixture>
+	</Layer>
+</MA>
