@@ -13,14 +13,22 @@ if __name__ == '__main__':
     tree = ET.parse('layers_4.xml')
     root = tree.getroot()
 
-    for child in root:
-        print(child.tag, child.attrib)
+    fixture = root.findall(".//*[@fixture_id]")
+    locations = root.findall(".//Layers")
+    xyz = root.findall(".//*[@x][@y][@z]")
+    fixtureLoc = root.findall("./Layers/Layer/Fixture/SubFixture/AbsolutePosition/Location")
+
+    print('Fixtures: ', len(fixture))
+    print('Locations: ', len(locations))
+
+    # for child in fixture:
+    # print(child.tag)
 
     from datetime import *
     fileStamp = datetime.strftime(datetime.now(), '%Y-%m-%d_%H%M%S')
 
     # Write new XML
-    tree.write('KB_Parser-{}.xml'.format(fileStamp))
+    # tree.write('KB_Parser-{}.xml'.format(fileStamp))
 
 """
  Objective:
@@ -33,11 +41,11 @@ CSV Key (a, b, c, d) a=fixture id b=x c=y d=z.
 
 ‘a’ will reference the ‘fixture_id’
 
-‘b’ will replace the current ‘x’ attribute of Fixture/SubFixture/AbsolutePostition/Location
+‘b’ will replace the current ‘x’ attribute of Fixture/SubFixture/AbsolutePosition/Location
 
-‘c’ will replace the current ‘z’ attribute of Fixture/SubFixture/AbsolutePostition/Location
+‘c’ will replace the current ‘z’ attribute of Fixture/SubFixture/AbsolutePosition/Location
 
-‘d’ will replace the current ‘y’ attribute of Fixture/SubFixture/AbsolutePostition/Location
+‘d’ will replace the current ‘y’ attribute of Fixture/SubFixture/AbsolutePosition/Location
      
  -MA
     -Layers
