@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <MA major_vers="3" minor_vers="3" stream_vers="4" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd">
-	<Info datetime="2017-12-08T00:01:49" showfile="KB-Show-2017-12-08-000149"/>
+	<Info datetime="2017-12-08T00:07:25" showfile="KB-Show-2017-12-08-000725"/>
 	<Macro index="0">
 		<Macroline index="0">
 			<text>Fixture 101</text>
@@ -9,55 +9,55 @@
 			<text>Move3D At 1.25 3.75 2.50</text>
 		</Macroline>
 		<Macroline index="2">
-			<text>Fixture 101</text>
+			<text>Fixture 102</text>
 		</Macroline>
 		<Macroline index="3">
 			<text>Move3D At 4.00 6.50 5.25</text>
 		</Macroline>
 		<Macroline index="4">
-			<text>Fixture 101</text>
+			<text>Fixture 103</text>
 		</Macroline>
 		<Macroline index="5">
 			<text>Move3D At 7.75 9.25 8.00</text>
 		</Macroline>
 		<Macroline index="6">
-			<text>Fixture 101</text>
+			<text>Fixture 104</text>
 		</Macroline>
 		<Macroline index="7">
 			<text>Move3D At 9.50 2.00 1.75</text>
 		</Macroline>
 		<Macroline index="8">
-			<text>Fixture 101</text>
+			<text>Fixture 105</text>
 		</Macroline>
 		<Macroline index="9">
 			<text>Move3D At 2.25 4.75 3.50</text>
 		</Macroline>
 		<Macroline index="10">
-			<text>Fixture 101</text>
+			<text>Fixture 106</text>
 		</Macroline>
 		<Macroline index="11">
 			<text>Move3D At 5.00 7.50 6.25</text>
 		</Macroline>
 		<Macroline index="12">
-			<text>Fixture 101</text>
+			<text>Fixture 107</text>
 		</Macroline>
 		<Macroline index="13">
 			<text>Move3D At 8.75 1.25 9.00</text>
 		</Macroline>
 		<Macroline index="14">
-			<text>Fixture 101</text>
+			<text>Fixture 108</text>
 		</Macroline>
 		<Macroline index="15">
 			<text>Move3D At 2.50 4.00 2.75</text>
 		</Macroline>
 		<Macroline index="16">
-			<text>Fixture 101</text>
+			<text>Fixture 109</text>
 		</Macroline>
 		<Macroline index="17">
 			<text>Move3D At 4.25 6.75 5.50</text>
 		</Macroline>
 		<Macroline index="18">
-			<text>Fixture 101</text>
+			<text>Fixture 110</text>
 		</Macroline>
 		<Macroline index="19">
 			<text>Move3D At 7.00 9.50 8.25</text>
