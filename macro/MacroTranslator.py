@@ -2,54 +2,61 @@
 if __name__ == '__main__':
     # myParser = KBParser()
     import xml.etree.ElementTree as ET
+    from datetime import *
 
     ET.register_namespace('', "http://schemas.malighting.de/grandma2/xml/MA")
-    tree = ET.parse('macro_3.xml')
+    tree = ET.parse('Templates/macro_3.xml')
+    newTree = ET.parse('Templates/macro_3.xml')
+    newRoot = newTree.getroot()
     root = tree.getroot()
 
+    # Set datetime on Info element
+    infoElement = root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Info")
+    infoElement.set('datetime', datetime.strftime(datetime.now(), '%Y-%m-%dT%H:%M:%S'))
+    infoElement.set('showfile', 'KB-Show-' + datetime.strftime(datetime.now(), '%Y-%m-%d-%H%M%S'))
+
     # namespaces = {'ns': 'http://schemas.malighting.de/grandma2/xml/MA'}
-    macro = root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/")
-    macroLine = root.findall(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/"
-                             "{http://schemas.malighting.de/grandma2/xml/MA}Macroline")
+    # macro = root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro")
+    # macroLine = root.findall(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/"
+    #  "{http://schemas.malighting.de/grandma2/xml/MA}Macroline")
     # macroText = root.findall(".//Text")
 
-    macroTextMove3DTemplate = 'Move3D At {0} {1} {2}'
+    selectFixtureId = '101'
+    macroTextSelectFixtureTemplate = 'Select {0}'.format(selectFixtureId)
+    macroTextMove3DTemplate = 'Move3D At{0}{1}{2}'
 
     import csv
 
     csvX = []
     csvY = []
     csvZ = []
+    currMacroIndex = 0;
 
     with open('../csvExample-11-17-17.csv', 'r') as f:
         reader = csv.reader(f)
-        for row in reader:
+        for index, row in enumerate(reader):
             csvX.append(row[1])
             csvY.append(row[2])
             csvZ.append(row[3])
-            currIndex = len(root.findall(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/"
-                                         "{http://schemas.malighting.de/grandma2/xml/MA}Macroline")) + 1
-            tempLine = ET.Element('Macroline', index=str(currIndex))
-            # tempLineText = ET.Element('text', text=macroTextMove3DTemplate.format(row[1], row[3], row[2]))
-            # newMacro = ET.SubElement(tempLine, tempLineText)
-            # root.append(newMacro)
 
-            # currMacroLine = ET.SubElement(macro, 'Macroline')
-            # currMacroLineText = ET.SubElement(currMacroLine, 'text')
-            # currMacroLineText.text = macroTextMove3DTemplate.format(row[1], row[3], row[2])
+            fixtureSelect = ET.Element('Macroline', index=str(currMacroIndex))
+            fixtureSelectText = ET.SubElement(fixtureSelect, "text")
+            fixtureSelectText.text = macroTextSelectFixtureTemplate
 
-            tempA = ET.SubElement(tempLine, "text")
-            tempA.text = macroTextMove3DTemplate.format(row[1], row[3], row[2])
-            root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/").append(tempLine)
+            fixtureCommand = ET.Element('Macroline', index=str(currMacroIndex + 1))
+            fixtureCommandText = ET.SubElement(fixtureCommand, "text")
+            fixtureCommandText.text = macroTextMove3DTemplate.format(row[1], row[3], row[2])
 
-            # macroLine[len(macroLine) - 1].append(tempLine)
-            # print(macro)
-            # your_list = map(tuple, reader)
+            currMacroIndex += 2
+
+            root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro").append(fixtureSelect)
+            root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro").append(fixtureCommand)
 
     # Renumber all macro lines sequentially
-    for index, mLine in enumerate(macroLine):
+    '''for index, mLine in enumerate(root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/"
+                                            "{http://schemas.malighting.de/grandma2/xml/MA}Macroline")):
         mLine.set('index', str(index))
-
+    '''
     """
     for fix in fixture:
         print('Fixture Info: ID - ', fix.get('fixture_id'), ' Name - ', fix.get('name'), ' Index - ', fix.get('index'))
@@ -70,12 +77,27 @@ if __name__ == '__main__':
         # print(loc.get('x'))
     """
 
-    from datetime import *
-
     fileStamp = datetime.strftime(datetime.now(), '%Y-%m-%d_%H%M%S')
+    fileNameStamp = 'Output/KB_Parser-{}.xml'.format(fileStamp)
+
+    import xml.dom.minidom as MD
+    import os
+
+    xmlstr = ET.tostring(root, encoding='utf8', method='xml')
+    xml_p = MD.parseString(xmlstr)
+    pretty_xml = xml_p.toprettyxml()
+    print(pretty_xml)
 
     # Write new XML
-    tree.write('Output/KB_Parser-{}.xml'.format(fileStamp))
+    f = open(fileNameStamp, 'w')
+    pretty_xml = os.linesep.join([s for s in pretty_xml.splitlines() if s.strip()])
+    f.write(pretty_xml)
+    f.close()
+
+    # pretty_xml.
+    # pretty_xml.writexml('Output/KB_Parser-{}.xml'.format(fileStamp))
+    # tree.write('Output/KB_Parser-{}.xml'.format(fileStamp))
+    # newTree.write('Output/KB_Parser-Blank-{}.xml'.format(fileStamp))
 
 """
 <?xml version="1.0" encoding="utf-8"?>
