@@ -21,8 +21,8 @@ if __name__ == '__main__':
     #  "{http://schemas.malighting.de/grandma2/xml/MA}Macroline")
     # macroText = root.findall(".//Text")
 
-    selectFixtureId = '101'
-    macroTextSelectFixtureTemplate = 'Select {0}'.format(selectFixtureId)
+    selectFixtureId = 101
+    macroTextSelectFixtureTemplate = 'Fixture {0}'.format(selectFixtureId)
     macroTextMove3DTemplate = 'Move3D At{0}{1}{2}'
 
     import csv
@@ -42,6 +42,8 @@ if __name__ == '__main__':
             fixtureSelect = ET.Element('Macroline', index=str(currMacroIndex))
             fixtureSelectText = ET.SubElement(fixtureSelect, "text")
             fixtureSelectText.text = macroTextSelectFixtureTemplate
+
+            selectFixtureId += 1
 
             fixtureCommand = ET.Element('Macroline', index=str(currMacroIndex + 1))
             fixtureCommandText = ET.SubElement(fixtureCommand, "text")
