@@ -1,0 +1,1422 @@
+<?xml version="1.0" ?>
+<MA major_vers="3" minor_vers="3" stream_vers="4" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.4/MA.xsd">
+	<Info datetime="2018-02-17T12:49:44" showfile="KB-Show-2018-02-17-124944"/>
+	<Macro index="0">
+		<Macroline index="0">
+			<text>Fixture 101</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>Move3D At -23.397 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Fixture 102</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Move3D At -23.399 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="4">
+			<text>Fixture 103</text>
+		</Macroline>
+		<Macroline index="5">
+			<text>Move3D At -22.175 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="6">
+			<text>Fixture 104</text>
+		</Macroline>
+		<Macroline index="7">
+			<text>Move3D At -22.176 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="8">
+			<text>Fixture 105</text>
+		</Macroline>
+		<Macroline index="9">
+			<text>Move3D At -20.952 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="10">
+			<text>Fixture 106</text>
+		</Macroline>
+		<Macroline index="11">
+			<text>Move3D At -20.954 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="12">
+			<text>Fixture 107</text>
+		</Macroline>
+		<Macroline index="13">
+			<text>Move3D At -19.73 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="14">
+			<text>Fixture 108</text>
+		</Macroline>
+		<Macroline index="15">
+			<text>Move3D At -19.731 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="16">
+			<text>Fixture 109</text>
+		</Macroline>
+		<Macroline index="17">
+			<text>Move3D At -18.507 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="18">
+			<text>Fixture 110</text>
+		</Macroline>
+		<Macroline index="19">
+			<text>Move3D At -18.509 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="20">
+			<text>Fixture 111</text>
+		</Macroline>
+		<Macroline index="21">
+			<text>Move3D At -17.285 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="22">
+			<text>Fixture 112</text>
+		</Macroline>
+		<Macroline index="23">
+			<text>Move3D At -17.286 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="24">
+			<text>Fixture 113</text>
+		</Macroline>
+		<Macroline index="25">
+			<text>Move3D At -16.062 13.106 6.351</text>
+		</Macroline>
+		<Macroline index="26">
+			<text>Fixture 114</text>
+		</Macroline>
+		<Macroline index="27">
+			<text>Move3D At -16.064 13.106 5.977</text>
+		</Macroline>
+		<Macroline index="28">
+			<text>Fixture 115</text>
+		</Macroline>
+		<Macroline index="29">
+			<text>Move3D At -24.019 13.784 5.818</text>
+		</Macroline>
+		<Macroline index="30">
+			<text>Fixture 116</text>
+		</Macroline>
+		<Macroline index="31">
+			<text>Move3D At -22.792 13.784 5.818</text>
+		</Macroline>
+		<Macroline index="32">
+			<text>Fixture 117</text>
+		</Macroline>
+		<Macroline index="33">
+			<text>Move3D At -21.565 13.784 5.818</text>
+		</Macroline>
+		<Macroline index="34">
+			<text>Fixture 118</text>
+		</Macroline>
+		<Macroline index="35">
+			<text>Move3D At -20.339 13.784 5.818</text>
+		</Macroline>
+		<Macroline index="36">
+			<text>Fixture 119</text>
+		</Macroline>
+		<Macroline index="37">
+			<text>Move3D At -19.112 13.784 5.818</text>
+		</Macroline>
+		<Macroline index="38">
+			<text>Fixture 120</text>
+		</Macroline>
+		<Macroline index="39">
+			<text>Move3D At -17.885 13.784 5.818</text>
+		</Macroline>
+		<Macroline index="40">
+			<text>Fixture 121</text>
+		</Macroline>
+		<Macroline index="41">
+			<text>Move3D At -15.482 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="42">
+			<text>Fixture 122</text>
+		</Macroline>
+		<Macroline index="43">
+			<text>Move3D At -16.698 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="44">
+			<text>Fixture 123</text>
+		</Macroline>
+		<Macroline index="45">
+			<text>Move3D At -17.913 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="46">
+			<text>Fixture 124</text>
+		</Macroline>
+		<Macroline index="47">
+			<text>Move3D At -19.129 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="48">
+			<text>Fixture 125</text>
+		</Macroline>
+		<Macroline index="49">
+			<text>Move3D At -20.345 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="50">
+			<text>Fixture 126</text>
+		</Macroline>
+		<Macroline index="51">
+			<text>Move3D At -23.992 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="52">
+			<text>Fixture 127</text>
+		</Macroline>
+		<Macroline index="53">
+			<text>Move3D At -22.776 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="54">
+			<text>Fixture 128</text>
+		</Macroline>
+		<Macroline index="55">
+			<text>Move3D At -21.561 13.038 6.172</text>
+		</Macroline>
+		<Macroline index="56">
+			<text>Fixture 129</text>
+		</Macroline>
+		<Macroline index="57">
+			<text>Move3D At -22.185 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="58">
+			<text>Fixture 130</text>
+		</Macroline>
+		<Macroline index="59">
+			<text>Move3D At -20.799 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="60">
+			<text>Fixture 131</text>
+		</Macroline>
+		<Macroline index="61">
+			<text>Move3D At -19.413 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="62">
+			<text>Fixture 132</text>
+		</Macroline>
+		<Macroline index="63">
+			<text>Move3D At -18.027 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="64">
+			<text>Fixture 133</text>
+		</Macroline>
+		<Macroline index="65">
+			<text>Move3D At -16.641 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="66">
+			<text>Fixture 134</text>
+		</Macroline>
+		<Macroline index="67">
+			<text>Move3D At -15.255 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="68">
+			<text>Fixture 135</text>
+		</Macroline>
+		<Macroline index="69">
+			<text>Move3D At 15.255 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="70">
+			<text>Fixture 136</text>
+		</Macroline>
+		<Macroline index="71">
+			<text>Move3D At 16.641 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="72">
+			<text>Fixture 137</text>
+		</Macroline>
+		<Macroline index="73">
+			<text>Move3D At 18.027 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="74">
+			<text>Fixture 138</text>
+		</Macroline>
+		<Macroline index="75">
+			<text>Move3D At 19.413 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="76">
+			<text>Fixture 139</text>
+		</Macroline>
+		<Macroline index="77">
+			<text>Move3D At 20.799 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="78">
+			<text>Fixture 140</text>
+		</Macroline>
+		<Macroline index="79">
+			<text>Move3D At 22.185 0.654 5.131</text>
+		</Macroline>
+		<Macroline index="80">
+			<text>Fixture 141</text>
+		</Macroline>
+		<Macroline index="81">
+			<text>Move3D At 24.019 13.784 5.843</text>
+		</Macroline>
+		<Macroline index="82">
+			<text>Fixture 142</text>
+		</Macroline>
+		<Macroline index="83">
+			<text>Move3D At 22.792 13.784 5.843</text>
+		</Macroline>
+		<Macroline index="84">
+			<text>Fixture 143</text>
+		</Macroline>
+		<Macroline index="85">
+			<text>Move3D At 21.565 13.784 5.843</text>
+		</Macroline>
+		<Macroline index="86">
+			<text>Fixture 144</text>
+		</Macroline>
+		<Macroline index="87">
+			<text>Move3D At 20.339 13.784 5.843</text>
+		</Macroline>
+		<Macroline index="88">
+			<text>Fixture 145</text>
+		</Macroline>
+		<Macroline index="89">
+			<text>Move3D At 19.112 13.784 5.843</text>
+		</Macroline>
+		<Macroline index="90">
+			<text>Fixture 146</text>
+		</Macroline>
+		<Macroline index="91">
+			<text>Move3D At 17.885 13.784 5.843</text>
+		</Macroline>
+		<Macroline index="92">
+			<text>Fixture 147</text>
+		</Macroline>
+		<Macroline index="93">
+			<text>Move3D At 23.397 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="94">
+			<text>Fixture 148</text>
+		</Macroline>
+		<Macroline index="95">
+			<text>Move3D At 23.399 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="96">
+			<text>Fixture 149</text>
+		</Macroline>
+		<Macroline index="97">
+			<text>Move3D At 22.175 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="98">
+			<text>Fixture 150</text>
+		</Macroline>
+		<Macroline index="99">
+			<text>Move3D At 22.176 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="100">
+			<text>Fixture 151</text>
+		</Macroline>
+		<Macroline index="101">
+			<text>Move3D At 20.952 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="102">
+			<text>Fixture 152</text>
+		</Macroline>
+		<Macroline index="103">
+			<text>Move3D At 20.954 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="104">
+			<text>Fixture 153</text>
+		</Macroline>
+		<Macroline index="105">
+			<text>Move3D At 19.73 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="106">
+			<text>Fixture 154</text>
+		</Macroline>
+		<Macroline index="107">
+			<text>Move3D At 19.731 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="108">
+			<text>Fixture 155</text>
+		</Macroline>
+		<Macroline index="109">
+			<text>Move3D At 18.507 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="110">
+			<text>Fixture 156</text>
+		</Macroline>
+		<Macroline index="111">
+			<text>Move3D At 18.509 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="112">
+			<text>Fixture 157</text>
+		</Macroline>
+		<Macroline index="113">
+			<text>Move3D At 17.285 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="114">
+			<text>Fixture 158</text>
+		</Macroline>
+		<Macroline index="115">
+			<text>Move3D At 17.286 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="116">
+			<text>Fixture 159</text>
+		</Macroline>
+		<Macroline index="117">
+			<text>Move3D At 16.062 13.106 6.376</text>
+		</Macroline>
+		<Macroline index="118">
+			<text>Fixture 160</text>
+		</Macroline>
+		<Macroline index="119">
+			<text>Move3D At 16.064 13.106 6.002</text>
+		</Macroline>
+		<Macroline index="120">
+			<text>Fixture 161</text>
+		</Macroline>
+		<Macroline index="121">
+			<text>Move3D At 15.482 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="122">
+			<text>Fixture 162</text>
+		</Macroline>
+		<Macroline index="123">
+			<text>Move3D At 16.698 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="124">
+			<text>Fixture 163</text>
+		</Macroline>
+		<Macroline index="125">
+			<text>Move3D At 17.913 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="126">
+			<text>Fixture 164</text>
+		</Macroline>
+		<Macroline index="127">
+			<text>Move3D At 19.129 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="128">
+			<text>Fixture 165</text>
+		</Macroline>
+		<Macroline index="129">
+			<text>Move3D At 20.345 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="130">
+			<text>Fixture 166</text>
+		</Macroline>
+		<Macroline index="131">
+			<text>Move3D At 23.992 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="132">
+			<text>Fixture 167</text>
+		</Macroline>
+		<Macroline index="133">
+			<text>Move3D At 22.776 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="134">
+			<text>Fixture 168</text>
+		</Macroline>
+		<Macroline index="135">
+			<text>Move3D At 21.561 13.038 6.198</text>
+		</Macroline>
+		<Macroline index="136">
+			<text>Fixture 169</text>
+		</Macroline>
+		<Macroline index="137">
+			<text>Move3D At 0.457 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="138">
+			<text>Fixture 170</text>
+		</Macroline>
+		<Macroline index="139">
+			<text>Move3D At 3.505 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="140">
+			<text>Fixture 171</text>
+		</Macroline>
+		<Macroline index="141">
+			<text>Move3D At 2.489 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="142">
+			<text>Fixture 172</text>
+		</Macroline>
+		<Macroline index="143">
+			<text>Move3D At 1.473 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="144">
+			<text>Fixture 173</text>
+		</Macroline>
+		<Macroline index="145">
+			<text>Move3D At -0.457 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="146">
+			<text>Fixture 174</text>
+		</Macroline>
+		<Macroline index="147">
+			<text>Move3D At -3.505 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="148">
+			<text>Fixture 175</text>
+		</Macroline>
+		<Macroline index="149">
+			<text>Move3D At -2.489 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="150">
+			<text>Fixture 176</text>
+		</Macroline>
+		<Macroline index="151">
+			<text>Move3D At -1.473 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="152">
+			<text>Fixture 177</text>
+		</Macroline>
+		<Macroline index="153">
+			<text>Move3D At -7.468 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="154">
+			<text>Fixture 178</text>
+		</Macroline>
+		<Macroline index="155">
+			<text>Move3D At -6.452 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="156">
+			<text>Fixture 179</text>
+		</Macroline>
+		<Macroline index="157">
+			<text>Move3D At -5.436 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="158">
+			<text>Fixture 180</text>
+		</Macroline>
+		<Macroline index="159">
+			<text>Move3D At -4.42 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="160">
+			<text>Fixture 181</text>
+		</Macroline>
+		<Macroline index="161">
+			<text>Move3D At 4.42 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="162">
+			<text>Fixture 182</text>
+		</Macroline>
+		<Macroline index="163">
+			<text>Move3D At 7.468 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="164">
+			<text>Fixture 183</text>
+		</Macroline>
+		<Macroline index="165">
+			<text>Move3D At 6.452 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="166">
+			<text>Fixture 184</text>
+		</Macroline>
+		<Macroline index="167">
+			<text>Move3D At 5.436 10.557 9.931</text>
+		</Macroline>
+		<Macroline index="168">
+			<text>Fixture 185</text>
+		</Macroline>
+		<Macroline index="169">
+			<text>Move3D At -6.452 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="170">
+			<text>Fixture 186</text>
+		</Macroline>
+		<Macroline index="171">
+			<text>Move3D At -4.42 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="172">
+			<text>Fixture 187</text>
+		</Macroline>
+		<Macroline index="173">
+			<text>Move3D At -7.468 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="174">
+			<text>Fixture 188</text>
+		</Macroline>
+		<Macroline index="175">
+			<text>Move3D At -5.436 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="176">
+			<text>Fixture 189</text>
+		</Macroline>
+		<Macroline index="177">
+			<text>Move3D At -2.489 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="178">
+			<text>Fixture 190</text>
+		</Macroline>
+		<Macroline index="179">
+			<text>Move3D At -0.457 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="180">
+			<text>Fixture 191</text>
+		</Macroline>
+		<Macroline index="181">
+			<text>Move3D At -3.505 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="182">
+			<text>Fixture 192</text>
+		</Macroline>
+		<Macroline index="183">
+			<text>Move3D At -1.473 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="184">
+			<text>Fixture 193</text>
+		</Macroline>
+		<Macroline index="185">
+			<text>Move3D At 2.489 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="186">
+			<text>Fixture 194</text>
+		</Macroline>
+		<Macroline index="187">
+			<text>Move3D At 0.457 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="188">
+			<text>Fixture 195</text>
+		</Macroline>
+		<Macroline index="189">
+			<text>Move3D At 3.505 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="190">
+			<text>Fixture 196</text>
+		</Macroline>
+		<Macroline index="191">
+			<text>Move3D At 1.473 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="192">
+			<text>Fixture 197</text>
+		</Macroline>
+		<Macroline index="193">
+			<text>Move3D At 6.452 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="194">
+			<text>Fixture 198</text>
+		</Macroline>
+		<Macroline index="195">
+			<text>Move3D At 7.468 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="196">
+			<text>Fixture 199</text>
+		</Macroline>
+		<Macroline index="197">
+			<text>Move3D At 5.436 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="198">
+			<text>Fixture 200</text>
+		</Macroline>
+		<Macroline index="199">
+			<text>Move3D At 4.42 10.557 13.767</text>
+		</Macroline>
+		<Macroline index="200">
+			<text>Fixture 201</text>
+		</Macroline>
+		<Macroline index="201">
+			<text>Move3D At -6.452 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="202">
+			<text>Fixture 202</text>
+		</Macroline>
+		<Macroline index="203">
+			<text>Move3D At -4.42 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="204">
+			<text>Fixture 203</text>
+		</Macroline>
+		<Macroline index="205">
+			<text>Move3D At -7.468 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="206">
+			<text>Fixture 204</text>
+		</Macroline>
+		<Macroline index="207">
+			<text>Move3D At -5.436 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="208">
+			<text>Fixture 205</text>
+		</Macroline>
+		<Macroline index="209">
+			<text>Move3D At -2.489 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="210">
+			<text>Fixture 206</text>
+		</Macroline>
+		<Macroline index="211">
+			<text>Move3D At -0.457 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="212">
+			<text>Fixture 207</text>
+		</Macroline>
+		<Macroline index="213">
+			<text>Move3D At -3.505 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="214">
+			<text>Fixture 208</text>
+		</Macroline>
+		<Macroline index="215">
+			<text>Move3D At -1.473 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="216">
+			<text>Fixture 209</text>
+		</Macroline>
+		<Macroline index="217">
+			<text>Move3D At 2.489 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="218">
+			<text>Fixture 210</text>
+		</Macroline>
+		<Macroline index="219">
+			<text>Move3D At 0.457 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="220">
+			<text>Fixture 211</text>
+		</Macroline>
+		<Macroline index="221">
+			<text>Move3D At 3.505 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="222">
+			<text>Fixture 212</text>
+		</Macroline>
+		<Macroline index="223">
+			<text>Move3D At 1.473 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="224">
+			<text>Fixture 213</text>
+		</Macroline>
+		<Macroline index="225">
+			<text>Move3D At 6.452 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="226">
+			<text>Fixture 214</text>
+		</Macroline>
+		<Macroline index="227">
+			<text>Move3D At 4.42 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="228">
+			<text>Fixture 215</text>
+		</Macroline>
+		<Macroline index="229">
+			<text>Move3D At 7.468 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="230">
+			<text>Fixture 216</text>
+		</Macroline>
+		<Macroline index="231">
+			<text>Move3D At 5.436 10.557 17.653</text>
+		</Macroline>
+		<Macroline index="232">
+			<text>Fixture 217</text>
+		</Macroline>
+		<Macroline index="233">
+			<text>Move3D At -9.157 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="234">
+			<text>Fixture 218</text>
+		</Macroline>
+		<Macroline index="235">
+			<text>Move3D At -7.122 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="236">
+			<text>Fixture 219</text>
+		</Macroline>
+		<Macroline index="237">
+			<text>Move3D At -5.087 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="238">
+			<text>Fixture 220</text>
+		</Macroline>
+		<Macroline index="239">
+			<text>Move3D At -1.017 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="240">
+			<text>Fixture 221</text>
+		</Macroline>
+		<Macroline index="241">
+			<text>Move3D At 3.052 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="242">
+			<text>Fixture 222</text>
+		</Macroline>
+		<Macroline index="243">
+			<text>Move3D At 5.087 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="244">
+			<text>Fixture 223</text>
+		</Macroline>
+		<Macroline index="245">
+			<text>Move3D At 7.122 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="246">
+			<text>Fixture 224</text>
+		</Macroline>
+		<Macroline index="247">
+			<text>Move3D At 9.157 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="248">
+			<text>Fixture 225</text>
+		</Macroline>
+		<Macroline index="249">
+			<text>Move3D At -3.052 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="250">
+			<text>Fixture 226</text>
+		</Macroline>
+		<Macroline index="251">
+			<text>Move3D At 1.017 10.568 19.664</text>
+		</Macroline>
+		<Macroline index="252">
+			<text>Fixture 227</text>
+		</Macroline>
+		<Macroline index="253">
+			<text>Move3D At -7.584 11.925 3.212</text>
+		</Macroline>
+		<Macroline index="254">
+			<text>Fixture 228</text>
+		</Macroline>
+		<Macroline index="255">
+			<text>Move3D At 7.621 11.925 3.212</text>
+		</Macroline>
+		<Macroline index="256">
+			<text>Fixture 229</text>
+		</Macroline>
+		<Macroline index="257">
+			<text>Move3D At -2.58 11.925 3.212</text>
+		</Macroline>
+		<Macroline index="258">
+			<text>Fixture 230</text>
+		</Macroline>
+		<Macroline index="259">
+			<text>Move3D At -0.015 11.925 3.212</text>
+		</Macroline>
+		<Macroline index="260">
+			<text>Fixture 231</text>
+		</Macroline>
+		<Macroline index="261">
+			<text>Move3D At 2.55 11.925 3.212</text>
+		</Macroline>
+		<Macroline index="262">
+			<text>Fixture 232</text>
+		</Macroline>
+		<Macroline index="263">
+			<text>Move3D At 1.15 11.851 3.212</text>
+		</Macroline>
+		<Macroline index="264">
+			<text>Fixture 233</text>
+		</Macroline>
+		<Macroline index="265">
+			<text>Move3D At -1.18 11.851 3.212</text>
+		</Macroline>
+		<Macroline index="266">
+			<text>Fixture 234</text>
+		</Macroline>
+		<Macroline index="267">
+			<text>Move3D At -4.008 11.851 3.212</text>
+		</Macroline>
+		<Macroline index="268">
+			<text>Fixture 235</text>
+		</Macroline>
+		<Macroline index="269">
+			<text>Move3D At -5.493 11.851 3.212</text>
+		</Macroline>
+		<Macroline index="270">
+			<text>Fixture 236</text>
+		</Macroline>
+		<Macroline index="271">
+			<text>Move3D At 3.972 11.851 3.212</text>
+		</Macroline>
+		<Macroline index="272">
+			<text>Fixture 237</text>
+		</Macroline>
+		<Macroline index="273">
+			<text>Move3D At 5.456 11.851 3.212</text>
+		</Macroline>
+		<Macroline index="274">
+			<text>Fixture 238</text>
+		</Macroline>
+		<Macroline index="275">
+			<text>Move3D At -7.422 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="276">
+			<text>Fixture 239</text>
+		</Macroline>
+		<Macroline index="277">
+			<text>Move3D At -6.075 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="278">
+			<text>Fixture 240</text>
+		</Macroline>
+		<Macroline index="279">
+			<text>Move3D At -4.729 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="280">
+			<text>Fixture 241</text>
+		</Macroline>
+		<Macroline index="281">
+			<text>Move3D At -3.382 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="282">
+			<text>Fixture 242</text>
+		</Macroline>
+		<Macroline index="283">
+			<text>Move3D At -2.035 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="284">
+			<text>Fixture 243</text>
+		</Macroline>
+		<Macroline index="285">
+			<text>Move3D At -0.688 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="286">
+			<text>Fixture 244</text>
+		</Macroline>
+		<Macroline index="287">
+			<text>Move3D At 0.658 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="288">
+			<text>Fixture 245</text>
+		</Macroline>
+		<Macroline index="289">
+			<text>Move3D At 2.005 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="290">
+			<text>Fixture 246</text>
+		</Macroline>
+		<Macroline index="291">
+			<text>Move3D At 3.352 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="292">
+			<text>Fixture 247</text>
+		</Macroline>
+		<Macroline index="293">
+			<text>Move3D At 4.699 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="294">
+			<text>Fixture 248</text>
+		</Macroline>
+		<Macroline index="295">
+			<text>Move3D At 6.045 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="296">
+			<text>Fixture 249</text>
+		</Macroline>
+		<Macroline index="297">
+			<text>Move3D At 7.392 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="298">
+			<text>Fixture 250</text>
+		</Macroline>
+		<Macroline index="299">
+			<text>Move3D At 8.534 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="300">
+			<text>Fixture 251</text>
+		</Macroline>
+		<Macroline index="301">
+			<text>Move3D At -8.534 12.505 3.212</text>
+		</Macroline>
+		<Macroline index="302">
+			<text>Fixture 252</text>
+		</Macroline>
+		<Macroline index="303">
+			<text>Move3D At -7.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="304">
+			<text>Fixture 253</text>
+		</Macroline>
+		<Macroline index="305">
+			<text>Move3D At -6.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="306">
+			<text>Fixture 254</text>
+		</Macroline>
+		<Macroline index="307">
+			<text>Move3D At -5.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="308">
+			<text>Fixture 255</text>
+		</Macroline>
+		<Macroline index="309">
+			<text>Move3D At -4.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="310">
+			<text>Fixture 256</text>
+		</Macroline>
+		<Macroline index="311">
+			<text>Move3D At -3.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="312">
+			<text>Fixture 257</text>
+		</Macroline>
+		<Macroline index="313">
+			<text>Move3D At -2.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="314">
+			<text>Fixture 258</text>
+		</Macroline>
+		<Macroline index="315">
+			<text>Move3D At -1.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="316">
+			<text>Fixture 259</text>
+		</Macroline>
+		<Macroline index="317">
+			<text>Move3D At -0.015 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="318">
+			<text>Fixture 260</text>
+		</Macroline>
+		<Macroline index="319">
+			<text>Move3D At 0.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="320">
+			<text>Fixture 261</text>
+		</Macroline>
+		<Macroline index="321">
+			<text>Move3D At 1.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="322">
+			<text>Fixture 262</text>
+		</Macroline>
+		<Macroline index="323">
+			<text>Move3D At 2.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="324">
+			<text>Fixture 263</text>
+		</Macroline>
+		<Macroline index="325">
+			<text>Move3D At 3.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="326">
+			<text>Fixture 264</text>
+		</Macroline>
+		<Macroline index="327">
+			<text>Move3D At 4.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="328">
+			<text>Fixture 265</text>
+		</Macroline>
+		<Macroline index="329">
+			<text>Move3D At 5.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="330">
+			<text>Fixture 266</text>
+		</Macroline>
+		<Macroline index="331">
+			<text>Move3D At 6.985 12.871 2.839</text>
+		</Macroline>
+		<Macroline index="332">
+			<text>Fixture 267</text>
+		</Macroline>
+		<Macroline index="333">
+			<text>Move3D At 11.278 3.048 13.956</text>
+		</Macroline>
+		<Macroline index="334">
+			<text>Fixture 268</text>
+		</Macroline>
+		<Macroline index="335">
+			<text>Move3D At 11.278 3.048 12.546</text>
+		</Macroline>
+		<Macroline index="336">
+			<text>Fixture 269</text>
+		</Macroline>
+		<Macroline index="337">
+			<text>Move3D At 11.278 3.048 11.137</text>
+		</Macroline>
+		<Macroline index="338">
+			<text>Fixture 270</text>
+		</Macroline>
+		<Macroline index="339">
+			<text>Move3D At 11.278 3.048 9.727</text>
+		</Macroline>
+		<Macroline index="340">
+			<text>Fixture 271</text>
+		</Macroline>
+		<Macroline index="341">
+			<text>Move3D At 11.278 3.048 8.318</text>
+		</Macroline>
+		<Macroline index="342">
+			<text>Fixture 272</text>
+		</Macroline>
+		<Macroline index="343">
+			<text>Move3D At 11.278 3.048 6.908</text>
+		</Macroline>
+		<Macroline index="344">
+			<text>Fixture 273</text>
+		</Macroline>
+		<Macroline index="345">
+			<text>Move3D At -11.278 3.048 6.91</text>
+		</Macroline>
+		<Macroline index="346">
+			<text>Fixture 274</text>
+		</Macroline>
+		<Macroline index="347">
+			<text>Move3D At -11.278 3.048 8.32</text>
+		</Macroline>
+		<Macroline index="348">
+			<text>Fixture 275</text>
+		</Macroline>
+		<Macroline index="349">
+			<text>Move3D At -11.278 3.048 9.729</text>
+		</Macroline>
+		<Macroline index="350">
+			<text>Fixture 276</text>
+		</Macroline>
+		<Macroline index="351">
+			<text>Move3D At -11.278 3.048 11.139</text>
+		</Macroline>
+		<Macroline index="352">
+			<text>Fixture 277</text>
+		</Macroline>
+		<Macroline index="353">
+			<text>Move3D At -11.278 3.048 12.548</text>
+		</Macroline>
+		<Macroline index="354">
+			<text>Fixture 278</text>
+		</Macroline>
+		<Macroline index="355">
+			<text>Move3D At -11.278 3.048 13.958</text>
+		</Macroline>
+		<Macroline index="356">
+			<text>Fixture 279</text>
+		</Macroline>
+		<Macroline index="357">
+			<text>Move3D At -3.923 5.16 20.37</text>
+		</Macroline>
+		<Macroline index="358">
+			<text>Fixture 280</text>
+		</Macroline>
+		<Macroline index="359">
+			<text>Move3D At -3.216 5.867 20.37</text>
+		</Macroline>
+		<Macroline index="360">
+			<text>Fixture 281</text>
+		</Macroline>
+		<Macroline index="361">
+			<text>Move3D At -2.509 6.574 20.37</text>
+		</Macroline>
+		<Macroline index="362">
+			<text>Fixture 282</text>
+		</Macroline>
+		<Macroline index="363">
+			<text>Move3D At -1.802 7.281 20.37</text>
+		</Macroline>
+		<Macroline index="364">
+			<text>Fixture 283</text>
+		</Macroline>
+		<Macroline index="365">
+			<text>Move3D At -1.095 7.988 20.37</text>
+		</Macroline>
+		<Macroline index="366">
+			<text>Fixture 284</text>
+		</Macroline>
+		<Macroline index="367">
+			<text>Move3D At -0.388 8.695 20.37</text>
+		</Macroline>
+		<Macroline index="368">
+			<text>Fixture 285</text>
+		</Macroline>
+		<Macroline index="369">
+			<text>Move3D At -0.388 0.847 20.37</text>
+		</Macroline>
+		<Macroline index="370">
+			<text>Fixture 286</text>
+		</Macroline>
+		<Macroline index="371">
+			<text>Move3D At -1.095 1.554 20.37</text>
+		</Macroline>
+		<Macroline index="372">
+			<text>Fixture 287</text>
+		</Macroline>
+		<Macroline index="373">
+			<text>Move3D At -1.802 2.261 20.37</text>
+		</Macroline>
+		<Macroline index="374">
+			<text>Fixture 288</text>
+		</Macroline>
+		<Macroline index="375">
+			<text>Move3D At -2.509 2.968 20.37</text>
+		</Macroline>
+		<Macroline index="376">
+			<text>Fixture 289</text>
+		</Macroline>
+		<Macroline index="377">
+			<text>Move3D At -3.216 3.675 20.37</text>
+		</Macroline>
+		<Macroline index="378">
+			<text>Fixture 290</text>
+		</Macroline>
+		<Macroline index="379">
+			<text>Move3D At -3.923 4.382 20.37</text>
+		</Macroline>
+		<Macroline index="380">
+			<text>Fixture 291</text>
+		</Macroline>
+		<Macroline index="381">
+			<text>Move3D At 3.923 4.382 20.37</text>
+		</Macroline>
+		<Macroline index="382">
+			<text>Fixture 292</text>
+		</Macroline>
+		<Macroline index="383">
+			<text>Move3D At 3.216 3.675 20.37</text>
+		</Macroline>
+		<Macroline index="384">
+			<text>Fixture 293</text>
+		</Macroline>
+		<Macroline index="385">
+			<text>Move3D At 2.509 2.968 20.37</text>
+		</Macroline>
+		<Macroline index="386">
+			<text>Fixture 294</text>
+		</Macroline>
+		<Macroline index="387">
+			<text>Move3D At 1.802 2.261 20.37</text>
+		</Macroline>
+		<Macroline index="388">
+			<text>Fixture 295</text>
+		</Macroline>
+		<Macroline index="389">
+			<text>Move3D At 1.095 1.554 20.37</text>
+		</Macroline>
+		<Macroline index="390">
+			<text>Fixture 296</text>
+		</Macroline>
+		<Macroline index="391">
+			<text>Move3D At 0.388 0.847 20.37</text>
+		</Macroline>
+		<Macroline index="392">
+			<text>Fixture 297</text>
+		</Macroline>
+		<Macroline index="393">
+			<text>Move3D At 0.388 8.695 20.37</text>
+		</Macroline>
+		<Macroline index="394">
+			<text>Fixture 298</text>
+		</Macroline>
+		<Macroline index="395">
+			<text>Move3D At 1.095 7.988 20.37</text>
+		</Macroline>
+		<Macroline index="396">
+			<text>Fixture 299</text>
+		</Macroline>
+		<Macroline index="397">
+			<text>Move3D At 1.802 7.281 20.37</text>
+		</Macroline>
+		<Macroline index="398">
+			<text>Fixture 300</text>
+		</Macroline>
+		<Macroline index="399">
+			<text>Move3D At 2.509 6.574 20.37</text>
+		</Macroline>
+		<Macroline index="400">
+			<text>Fixture 301</text>
+		</Macroline>
+		<Macroline index="401">
+			<text>Move3D At 3.216 5.867 20.37</text>
+		</Macroline>
+		<Macroline index="402">
+			<text>Fixture 302</text>
+		</Macroline>
+		<Macroline index="403">
+			<text>Move3D At 3.923 5.16 20.37</text>
+		</Macroline>
+		<Macroline index="404">
+			<text>Fixture 303</text>
+		</Macroline>
+		<Macroline index="405">
+			<text>Move3D At -7.588 0.654 15.085</text>
+		</Macroline>
+		<Macroline index="406">
+			<text>Fixture 304</text>
+		</Macroline>
+		<Macroline index="407">
+			<text>Move3D At -6.202 0.654 15.904</text>
+		</Macroline>
+		<Macroline index="408">
+			<text>Fixture 305</text>
+		</Macroline>
+		<Macroline index="409">
+			<text>Move3D At -4.817 0.654 16.723</text>
+		</Macroline>
+		<Macroline index="410">
+			<text>Fixture 306</text>
+		</Macroline>
+		<Macroline index="411">
+			<text>Move3D At -3.431 0.654 17.542</text>
+		</Macroline>
+		<Macroline index="412">
+			<text>Fixture 307</text>
+		</Macroline>
+		<Macroline index="413">
+			<text>Move3D At -2.045 0.654 18.362</text>
+		</Macroline>
+		<Macroline index="414">
+			<text>Fixture 308</text>
+		</Macroline>
+		<Macroline index="415">
+			<text>Move3D At -0.659 0.654 19.181</text>
+		</Macroline>
+		<Macroline index="416">
+			<text>Fixture 309</text>
+		</Macroline>
+		<Macroline index="417">
+			<text>Move3D At 0.659 0.654 19.181</text>
+		</Macroline>
+		<Macroline index="418">
+			<text>Fixture 310</text>
+		</Macroline>
+		<Macroline index="419">
+			<text>Move3D At 2.045 0.654 18.362</text>
+		</Macroline>
+		<Macroline index="420">
+			<text>Fixture 311</text>
+		</Macroline>
+		<Macroline index="421">
+			<text>Move3D At 3.431 0.654 17.542</text>
+		</Macroline>
+		<Macroline index="422">
+			<text>Fixture 312</text>
+		</Macroline>
+		<Macroline index="423">
+			<text>Move3D At 4.817 0.654 16.723</text>
+		</Macroline>
+		<Macroline index="424">
+			<text>Fixture 313</text>
+		</Macroline>
+		<Macroline index="425">
+			<text>Move3D At 6.202 0.654 15.904</text>
+		</Macroline>
+		<Macroline index="426">
+			<text>Fixture 314</text>
+		</Macroline>
+		<Macroline index="427">
+			<text>Move3D At 7.588 0.654 15.085</text>
+		</Macroline>
+		<Macroline index="428">
+			<text>Fixture 315</text>
+		</Macroline>
+		<Macroline index="429">
+			<text>Move3D At -0.827 0.326 14.023</text>
+		</Macroline>
+		<Macroline index="430">
+			<text>Fixture 316</text>
+		</Macroline>
+		<Macroline index="431">
+			<text>Move3D At 0 0.326 14.023</text>
+		</Macroline>
+		<Macroline index="432">
+			<text>Fixture 317</text>
+		</Macroline>
+		<Macroline index="433">
+			<text>Move3D At 0.827 0.326 14.023</text>
+		</Macroline>
+		<Macroline index="434">
+			<text>Fixture 318</text>
+		</Macroline>
+		<Macroline index="435">
+			<text>Move3D At -8.534 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="436">
+			<text>Fixture 319</text>
+		</Macroline>
+		<Macroline index="437">
+			<text>Move3D At -6.096 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="438">
+			<text>Fixture 320</text>
+		</Macroline>
+		<Macroline index="439">
+			<text>Move3D At -3.658 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="440">
+			<text>Fixture 321</text>
+		</Macroline>
+		<Macroline index="441">
+			<text>Move3D At -1.219 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="442">
+			<text>Fixture 322</text>
+		</Macroline>
+		<Macroline index="443">
+			<text>Move3D At 1.219 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="444">
+			<text>Fixture 323</text>
+		</Macroline>
+		<Macroline index="445">
+			<text>Move3D At 3.658 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="446">
+			<text>Fixture 324</text>
+		</Macroline>
+		<Macroline index="447">
+			<text>Move3D At 6.096 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="448">
+			<text>Fixture 325</text>
+		</Macroline>
+		<Macroline index="449">
+			<text>Move3D At 8.534 0.326 18.882</text>
+		</Macroline>
+		<Macroline index="450">
+			<text>Fixture 326</text>
+		</Macroline>
+		<Macroline index="451">
+			<text>Move3D At -7.752 0.326 8.608</text>
+		</Macroline>
+		<Macroline index="452">
+			<text>Fixture 327</text>
+		</Macroline>
+		<Macroline index="453">
+			<text>Move3D At -2.607 0.326 6.137</text>
+		</Macroline>
+		<Macroline index="454">
+			<text>Fixture 328</text>
+		</Macroline>
+		<Macroline index="455">
+			<text>Move3D At 0 0.326 6.137</text>
+		</Macroline>
+		<Macroline index="456">
+			<text>Fixture 329</text>
+		</Macroline>
+		<Macroline index="457">
+			<text>Move3D At 7.752 0.326 8.608</text>
+		</Macroline>
+		<Macroline index="458">
+			<text>Fixture 330</text>
+		</Macroline>
+		<Macroline index="459">
+			<text>Move3D At 2.607 0.326 6.137</text>
+		</Macroline>
+		<Macroline index="460">
+			<text>Fixture 331</text>
+		</Macroline>
+		<Macroline index="461">
+			<text>Move3D At -4.013 12.309 17.658</text>
+		</Macroline>
+		<Macroline index="462">
+			<text>Fixture 332</text>
+		</Macroline>
+		<Macroline index="463">
+			<text>Move3D At 0 12.309 13.791</text>
+		</Macroline>
+		<Macroline index="464">
+			<text>Fixture 333</text>
+		</Macroline>
+		<Macroline index="465">
+			<text>Move3D At -3.962 12.309 13.791</text>
+		</Macroline>
+		<Macroline index="466">
+			<text>Fixture 334</text>
+		</Macroline>
+		<Macroline index="467">
+			<text>Move3D At 0 12.309 17.658</text>
+		</Macroline>
+		<Macroline index="468">
+			<text>Fixture 335</text>
+		</Macroline>
+		<Macroline index="469">
+			<text>Move3D At 3.962 12.309 14.206</text>
+		</Macroline>
+		<Macroline index="470">
+			<text>Fixture 336</text>
+		</Macroline>
+		<Macroline index="471">
+			<text>Move3D At 3.962 12.309 13.376</text>
+		</Macroline>
+	</Macro>
+</MA>
