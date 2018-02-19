@@ -4,6 +4,10 @@ if __name__ == '__main__':
     import xml.etree.ElementTree as ET
     from datetime import *
 
+    # Config
+    invertYZValues = False
+    # End Config
+
     ET.register_namespace('', "http://schemas.malighting.de/grandma2/xml/MA")
     tree = ET.parse('Templates/macro_3.xml')
     newTree = ET.parse('Templates/macro_3.xml')
@@ -25,19 +29,18 @@ if __name__ == '__main__':
 
     import csv
 
-    csvX = []
-    csvY = []
-    csvZ = []
+    # csvX = []
+    # csvY = []
+    # csvZ = []
     currMacroIndex = 0;
 
     with open('2-18-18/FooCSV.csv', 'r') as f:
         reader = csv.reader(f)
         for index, row in enumerate(reader):
-            csvX.append(row[1])
-            csvY.append(row[2])
-            csvZ.append(row[3])
+            # csvX.append(row[1])
+            # csvY.append(row[2])
+            # csvZ.append(row[3])
 
-            # Default
             selectFixtureId = row[0]
 
             fixtureSelect = ET.Element('Macroline', index=str(currMacroIndex))
@@ -47,7 +50,11 @@ if __name__ == '__main__':
 
             fixtureCommand = ET.Element('Macroline', index=str(currMacroIndex + 1))
             fixtureCommandText = ET.SubElement(fixtureCommand, "text")
-            fixtureCommandText.text = macroTextMove3DTemplate.format(row[1], row[3], row[2])
+
+            if invertYZValues:
+                fixtureCommandText.text = macroTextMove3DTemplate.format(row[1], row[3], row[2])
+            else:
+                fixtureCommandText.text = macroTextMove3DTemplate.format(row[1], row[2], row[3])
 
             currMacroIndex += 2
 
