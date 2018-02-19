@@ -6,6 +6,7 @@ if __name__ == '__main__':
 
     # Config
     invertYZValues = False
+    addClearAllAfterEachLine = True
     # End Config
 
     ET.register_namespace('', "http://schemas.malighting.de/grandma2/xml/MA")
@@ -48,7 +49,9 @@ if __name__ == '__main__':
             macroTextSelectFixtureTemplate = 'Fixture {0}'.format(selectFixtureId)
             fixtureSelectText.text = macroTextSelectFixtureTemplate
 
-            fixtureCommand = ET.Element('Macroline', index=str(currMacroIndex + 1))
+            currMacroIndex += 1
+
+            fixtureCommand = ET.Element('Macroline', index=str(currMacroIndex))
             fixtureCommandText = ET.SubElement(fixtureCommand, "text")
 
             if invertYZValues:
@@ -60,6 +63,13 @@ if __name__ == '__main__':
 
             root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro").append(fixtureSelect)
             root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro").append(fixtureCommand)
+
+            if addClearAllAfterEachLine:
+                clearAll = ET.Element('Macroline', index=str(currMacroIndex))
+                clearAllText = ET.SubElement(clearAll, "text")
+                clearAllText.text = 'ClearAll'
+                root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro").append(clearAll)
+                currMacroIndex += 1
 
     # Renumber all macro lines sequentially
     '''for index, mLine in enumerate(root.find(".//{http://schemas.malighting.de/grandma2/xml/MA}Macro/"
